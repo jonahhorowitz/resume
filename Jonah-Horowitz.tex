@@ -1,0 +1,157 @@
+% resume.tex
+%
+%Jonah Horowitz 
+%November 18 2016
+
+\documentclass[10pt]{article}
+\usepackage{fullpage}
+\usepackage{hyperref}
+%\textheight=10in
+\pagestyle{empty}
+\linespread{.75}
+\raggedbottom
+\usepackage{fancyhdr}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%\setlength {\oddsidemargin}{-.5cm}
+%\setlength {\evensidemargin}{-.5cm}
+%\setlength {\topmargin}{0cm}
+
+\begin{document}
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\textbf{Jonah Horowitz}  & \\
+San Francisco, CA & \href{mailto:incoming@jonahhorowitz.com}{incoming@jonahhorowitz.com} \\
+\hline
+\end{tabular*}
+
+\medskip
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://netflix.com}{\textbf{Netflix}} & Los Gatos, CA\\
+		Senior Site Reliability Engineer & April 2015 - January 2017\\
+	\end{tabular*}
+
+	\begin{itemize}
+		\item Developed a tool (drill-sergeant) that scanned Netflix micro-services for reliability risks and made suggestions for teams to improve their reliability
+		\item Ran our ``production ready" micro-services effort, a checklist of important reliability steps for micro-service teams
+		\item Consulted with micro-service teams to drive reliability efforts, including adding monitoring, alerting, deployment practices, application tuning and chaos resiliency
+		\item Lead post-mortem incident reviews to identify root cause and ensure remediation
+		\item Created an ``after-incident report" process so single page write-ups of incident learnings could be communicated broadly throughout Netflix
+		\item Participated in oncall rotation and incident response, initial triage, ensuring communication and making sure engineering teams were focused on mitigating customer impact during major outages
+	\end{itemize}
+
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://quantcast.com}{\textbf{Quantcast}} & San Francisco, CA\\
+		Lead Production Engineer & January 2011 - April 2015\\
+	\end{tabular*}
+
+	\begin{itemize}
+		\item Mentored Quantcast Operations engineers
+		\item Expanded Quantcast's systems, supporting 10x growth while containing costs
+		\item Managed Quantcast's capacity planning and budget		
+		\item Automated the continuous integration of operating system security updates
+		\item Rebuilt Quantcast's automated server install system based on cobbler
+		\item Automated the install and operation of Quantcast's services using puppet
+		\item Managed Quantcast's relationship with hardware vendors, datacenters and ISPs 
+	\end{itemize}
+
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://www.looksmart.com}{\textbf{Looksmart}} & San Francisco, CA\\
+		Operations Architect \& Monitoring Manager & August 2007 - December 2010\\
+	\end{tabular*}
+
+	\begin{itemize}
+		\item Designed and implemented Looksmart's new data center, with increased rack density and lower costs
+		\item Overhauled monitoring systems to reduce check latency from 50 sec to less than 1 sec
+		\item Increased monitoring capacity to support 300\% growth in monitored servers to over 1000 servers
+		\item Managed Looksmart's relationship with our outsourced Network Operations Center - including renegotiating our contract to save Looksmart \$150k/year
+	\end{itemize}
+
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://www.geminimobile.com}{\textbf{Gemini Mobile Technologies}} & San Mateo, CA\\
+		System Software Engineer & January 2006 - August 2007\\
+	\end{tabular*}
+
+	\begin{itemize}
+		\item Owned systems related product subcomponents including functional specification, design, implementation, unit testing and maintenance
+		\item Ensured performance, security, and maintainability in designing and implementing new product features
+		\item Supported QA engineers in developing test plans for fail-over, redundancy, reliability, and performance
+		\item Extended network architecture to include load balancers for greater scalability
+	\end{itemize}
+
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{MediaMaster} & San Mateo, CA\\
+		System Architect \& Software Engineer & June 2004 - December 2005\\
+		\medskip
+	\end{tabular*}
+
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://www.walmart.com}{\textbf{Walmart.com}} & Brisbane, CA\\
+		System Administrator & June 2000 - September 2002\\
+		\medskip
+	\end{tabular*}
+
+{\large \textbf{Conference Presentations}}
+
+\medskip
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+	\textbf{From Sysadmin to SRE} & SCaLE 14x\\
+	How Netflix views the Site Reliability Engineer role & January 2016\\
+	\medskip
+	\url{https://www.youtube.com/watch?v=lZI51YzIgVE}
+	\medskip
+\end{tabular*}
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+	\textbf{Netflix: 190 Countries and 5 CORE SREs} & USENIX SREcon16\\
+	How does Netflix scale SRE? & April 2016\\
+	\medskip
+	\url{https://www.usenix.org/conference/srecon16/program/presentation/horowitz}
+	\medskip
+\end{tabular*}
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+	\textbf{The Cloud Will Not Save You} & Velocity Ignite 2016\\
+	From your technical debt. & June 2016\\
+	\medskip
+	\url{https://www.youtube.com/watch?v=O8RsX_BR9Lg}
+	\medskip
+\end{tabular*}
+
+\bigskip
+
+{\large \textbf{Publications}}
+
+\medskip
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+	\textbf{Monitoring with Ganglia} & O'Reilly Media\\
+	Quantcast case study on metrics scaling and Holt-Winters aberrance detection. & November 2012\\
+\end{tabular*}
+
+\bigskip
+
+{\large \textbf{Education}}
+
+\medskip
+
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+	\textbf{University of Cincinnati} &  Cincinnati, OH\\
+	Bachelors of Science in Computer Engineering & June 2005\\
+\end{tabular*}
+
+\bigskip
+
+{\large \textbf{Technical Skills}}\\
+\medskip
+AWS, Cloud, CFEngine2, Puppet, Red Hat, CentOS, Ubuntu, Debian, Linux Server Administration, Nagios, Ganglia, Cacti, Smokeping, TCP/IP, BGP Anycast, DNS, Perl, Python, Server and Network Security
+\bigskip\\
+References available upon request.
+
+\end{document}
+ 
+
+
+
