@@ -1,6 +1,5 @@
 Jonah Horowitz
 ==============
-- - -
 San Francisco, CA [incoming@jonahhorowitz.com](mailto:incoming@jonahhorowitz.com)
 
 **Senior Site Reliability Engineer experienced in Amazon Web Services and bare metal hardware deployments. Expert at scaling public and private cloud infrastructure.**
@@ -86,5 +85,3 @@ Cincinnati, OH *June 2005*
 Technical Skills
 ----------------
 AWS, Cloud, CFEngine2, Puppet, Red Hat, CentOS, Ubuntu, Debian, Linux Server Administration, Nagios, Ganglia, Cacti, Smokeping, TCP/IP, BGP Anycast, DNS, Perl, Python, Server and Network Security
-
-*References available upon request.*
