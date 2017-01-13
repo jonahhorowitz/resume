@@ -3,6 +3,8 @@ Jonah Horowitz
 - - -
 San Francisco, CA [incoming@jonahhorowitz.com](mailto:incoming@jonahhorowitz.com)
 
+**Senior Site Reliability Engineer experienced in Amazon Web Services and bare metal hardware deployments. Expert at scaling public and private cloud infrastructure.**
+
 Experience
 ----------
 
@@ -10,25 +12,21 @@ Experience
 **Senior Site Reliability Engineer**
 Los Gatos, CA *April 2015 - January 2017*
 
-*   Developed a tool (drill-sergeant) that scanned Netflix micro-services for reliability risks and made suggestions for teams to improve their reliability
-*   Ran our “production ready” micro-services effort, a checklist of important reliability steps for micro-service teams
-*   Consulted with micro-service teams to drive reliability efforts, including adding monitoring, alerting, deployment practices, application tuning and chaos resiliency
-*   Lead post-mortem incident reviews to identify root cause and ensure remediation
-*   Created an “after-incident report” process so single page write-ups of incident learnings could be
-communicated broadly throughout Netflix
+*   Drove our "production ready" effort, a checklist of important reliability steps for development teams, and developed a tool that scanned Netflix microservices for reliability risks and made suggestions for teams to improve their reliability
+*   Consulted with microservice teams to drive reliability efforts, including adding monitoring, alerting, deployment practices, application tuning and chaos resiliency
+*   Lead post-mortem incident reviews to identify root cause and ensure remediation and created a new "after-incident report" process so single page write-ups of incident learnings could be communicated broadly throughout Netflix
 *   Participated in oncall rotation and incident response, initial triage, ensuring communication and making sure engineering teams were focused on mitigating customer impact during major outages
 
 ### Quantcast 
 **Lead Production Engineer**
 San Francisco, CA *January 2011 - April 2015*
 
-*   Mentored Quantcast Operations engineers
-*   Expanded Quantcast’s systems, supporting 10x growth while containing costs
-*   Managed Quantcast’s capacity planning and budget
-*   Automated the continuous integration of operating system security updates
-*   Rebuilt Quantcast’s automated server install system based on cobbler
-*   Automated the install and operation of Quantcast’s services using puppet
-*   Managed Quantcast’s relationship with hardware vendors, datacenters and ISPs
+*   Expanded Quantcast's systems, supporting 10x growth while containing costs
+*   Mentored junior operations engineers and new graduates, from onboarding to training them in large scale system operations and troubleshooting
+*   Managed Quantcast's capacity planning and budget, building out 17 edge PoPs worldwide while maintaining capacity and performance goals
+*   Automated the continuous integration of operating system security updates to keep all systems up to date and reduce our exposure to security vulnerabilities
+*   Rebuilt Quantcast's automated server install system based on cobbler, and automated the install and operation of Quantcast's services using puppet
+*   Managed Quantcast's relationship with hardware vendors, datacenters and ISPs, including vendor selection, performance requirements, and contract negotiation
 
 ### Looksmart
 **Operations Architect & Monitoring Manager**
