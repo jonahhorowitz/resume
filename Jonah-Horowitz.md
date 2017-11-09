@@ -7,6 +7,23 @@ San Francisco, CA [incoming@jonahhorowitz.com](mailto:incoming@jonahhorowitz.com
 Experience
 ----------
 
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\href{http://stripe.com}{\textbf{Stripe}} & San Francisco, CA\\
+		Site Reliability Engineer & March 2017 - Present\\
+	\end{tabular*}
+
+	\begin{itemize}
+		\end{itemize}
+
+### Stripe
+**Site Reliablity Engineer**
+San Francisco, CA *March 2017 - Present*
+
+* Wrote "carrot", a tool that scanned Stripe services for reliability risks and made suggestions for teams to improve their reliability
+* Built an internal dashboard to show which code paths were struggling with availability and followed up with the responsible teams
+* Designed and implemented a production readiness review process for new services
+* Reorganized the Stripe post-mortem and incident review process to make sure that we could track metrics from incidents and drive follow-up for remediation items
+
 ### Netflix
 **Senior Site Reliability Engineer**
 Los Gatos, CA *April 2015 - January 2017*
@@ -54,20 +71,30 @@ Brisbane, CA *June 2000 - September 2002*
 
 Conference Presentations
 ------------------------
-### From Sysadmin to SRE
-**How Netflix views the Site Reliability Engineer role**  
-SCaLE 14x *January 2016*  
-[YouTube](https://www.youtube.com/watch?v=lZI51YzIgVE)
+### Ten Persistent SRE Anti-patterns
+**Pitfalls on the Road to a Successful SRE Program**
+SRECon 17 Americas *March 2017*
+[USENIX](https://www.usenix.org/conference/srecon17americas/program/presentation/horowitz)
+
+### Configuration Management is an Anti-pattern
+**Immutable Infrastructure**
+SCaLE 15x *March 2017*
+[SpeakerDeck](https://speakerdeck.com/jonahhorowitz/configuration-management-is-an-antipattern)
+
+### The Cloud Will Not Save You
+**From your technical debt.**  
+Velocity Ignite 2016 *June 2016*  
+[YouTube](https://www.youtube.com/watch?v=O8RsX_BR9Lg)
 
 ### Netflix: 190 Countries and 5 CORE SREs
 **How does Netflix scale SRE?**  
 USENIX SREcon16 *April 2016*  
 [USENIX Video](https://www.usenix.org/conference/srecon16/program/presentation/horowitz)
 
-### The Cloud Will Not Save You
-**From your technical debt.**  
-Velocity Ignite 2016 *June 2016*  
-[YouTube](https://www.youtube.com/watch?v=O8RsX_BR9Lg)
+### From Sysadmin to SRE
+**How Netflix views the Site Reliability Engineer role**  
+SCaLE 14x *January 2016*  
+[YouTube](https://www.youtube.com/watch?v=lZI51YzIgVE)
 
 Publications
 ------------
