@@ -22,7 +22,7 @@ Cupertino, CA *January 2018 - Present*
 **Site Reliability Engineer**
 San Francisco, CA *March 2017 - January 2018*
 
-* Wrote "carrot", a tool that scanned Stripe services for reliability risks and made suggestions for teams to improve their reliability
+* Wrote *carrot*, a tool that scanned Stripe services for reliability risks and made suggestions for teams to improve their reliability
 * Built an internal dashboard to show which code paths were struggling with availability and followed up with the responsible teams
 * Designed and implemented a production readiness review process for new services
 * Reorganized the Stripe post-mortem and incident review process to make sure that we could track metrics from incidents and drive follow-up for remediation items
